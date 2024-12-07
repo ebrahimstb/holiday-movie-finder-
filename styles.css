@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  header {
+    background: #1e272e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  header h1 {
+    margin: 0;
+  }
+  .search-bar {
+    margin: 20px 0;
+  }
+  .search-bar input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .search-bar button {
+    padding: 10px;
+    background: #0a3d62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .search-bar button:hover {
+    background: #0c2461;
+  }
+  main {
+    padding: 20px;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  #preloaded-container,
+  #movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .movie {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .movie img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  footer {
+    text-align: center;
+    background: #1e272e;
+    color: #fff;
+    padding: 10px 0;
+  }
+.autocomplete-suggestions {
+    position: absolute;
+    background: white; 
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    width: 70%;
+    margin-top: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  } 
+  .autocomplete-suggestions div {
+    padding: 10px; 
+    cursor: pointer; 
+    color: #333; 
+    font-size: 16px; 
+  }
+  .autocomplete-suggestions div:hover {
+    background-color: #f0f0f0; 
+    color: #000;
+  }
+  
